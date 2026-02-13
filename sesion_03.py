@@ -1,0 +1,13 @@
+# Loops 
+mi_lista = [1,2,3,4,5]
+
+for i in mi_lista:
+    print("El nuevo numero es:", i)
+    resultado = 0
+    for i in mi_lista:
+        resultado += i
+
+        print("El resultado de la suma de mi lista es: {resulto} ")
+        for i in range (2,9):
+            print(i)
+            mi_lista_2=["Lunes"]
