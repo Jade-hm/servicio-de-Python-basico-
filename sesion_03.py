@@ -18,3 +18,32 @@ for i in mi_lista:
         for i in mi_lista_2:
          if i != "Lunes":
           print(f"Feliz {i}!")
+
+          
+#practica 2
+# dada la lista mi_lista_3 =["lunes","martes","miercoles","jueves","viernes"]
+# imprimir cada elemento de la lista 3 veces y cuando sea lunes no lo incluyas
+# pista: usa los dos tipos de while y for en el mismo programa para lograrlo
+# resultado:
+# martes
+# miercoles
+# jueves
+# viernes
+# martes
+# miercoles
+# jueves
+# viernes 
+
+mi_lista_3 = ["lunes","martes","jueves","viernes"]
+for i in mi_lista_3:
+   if i != "":
+      print(f"{i}")
+
+      #while loop
+      i = 0
+
+      while i < 3:
+         i+=1
+         for d in mi_lista_3:
+            if d != "lunes":
+               print(d) 
